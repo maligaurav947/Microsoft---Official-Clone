@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0px 0px 0px 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+header {
+  height: 9vh;
+}
+nav,
+header,
+ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+}
+.logo img {
+  width: 120px;
+  position: relative;
+  top: 0px;
+  left: -2px;
+}
+.left-nav-links li a {
+  padding-left: 15px;
+}
+.left-nav-links li:hover {
+  border-bottom: 2px solid brown;
+}
+/* Container */
+.container {
+  margin-top: 35px;
+  height: 70vh;
+  width: 85vw;
+  background-size: cover;
+  background-position: center;
+  background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWUuNl?ver=8047&q=0&m=8&h=472&w=1259&b=%23FFFFFFFF&l=f&x=31&y=330&s=2725&d=1022&aim=true);
+  image-rendering: pixelated;
+}
+.cont-text {
+  color: black;
+  font-weight: 200;
+}
+.cont-h1 {
+  padding: 105px 0 0 30px;
+  font-size: 32px;
+}
+.cont-p {
+  font-size: 22px;
+  overflow: auto;
+  padding: 0px 0 0 30px;
+}
+.cont-btn {
+  background-color: brown;
+  margin: 30px 0px 0px 30px;
+  padding: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+}
+.cont-p2 {
+  position: absolute;
+  left: 291px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  top: 335px;
+}
+.cont-btn:hover {
+  text-decoration: underline;
+}
+
+.row {
+  margin-left: -120px;
+  height: 20vh;
+  background-color: white;
+}
+.col {
+  padding-top: 50px;
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+.col1,
+.col2,
+.col3,
+.col4 {
+  padding: 0px 30px 40px 30px;
+}
+.col1 p,
+.col2 p,
+.col3 p,
+.col4 p {
+  padding: 12px;
+  text-transform: capitalize;
+}
+
+/*  */
+.info-section-1 {
+  padding-top: 150px;
+  place-content: center;
+  display: flex;
+  height: 65vh;
+  padding-right: 120px;
+}
+.info-section-1 img {
+  width: 250px;
+}
+.info-section-1 h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.info-section-1 p {
+  padding: 20px 0 30px 0;
+  font-weight: 200;
+}
+.info-section-1 a {
+  font-weight: 600;
+  color: blue;
+}
+.info-section-1 a::after {
+  content: " >";
+}
+.surface,
+.surfac2,
+.surfac3,
+.surface4 {
+  padding: 0 30px 0 20px;
+}
+.bg2 {
+  margin-left: 10px;
+  margin-right: 110px;
+  height: 75vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hFDE?ver=e113&q=0&m=8&h=472&w=1259&b=%23FFFFFFFF&l=f&x=0&y=187&s=2120&d=795&aim=true);
+  position: relative;
+  margin-bottom: -50px;
+}
+.bg2 h1,
+.p,
+.btn-bg2 {
+  font-size: 38px;
+  font-weight: 500;
+  position: absolute;
+  top: 130px;
+  left: 30px;
+}
+.p {
+  font-weight: 200;
+  font-size: 32px;
+  top: 180px;
+}
+.btn-bg2 {
+  border: none;
+  background-color: burlywood;
+  padding: 12px;
+  font-weight: 200;
+  font-size: 25px;
+  top: 280px;
+}
+.btn-bg2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.follow {
+  margin-top: -50px;
+  height: 5vh;
+  margin-bottom: 100px;
+}
+.follow img {
+  position: relative;
+  width: 30px;
+  top: 7px;
+  left: 5px;
+}
+footer {
+  background-color: wheat;
+  height: 60vh;
+  margin-left: -100px;
+  display: flex;
+  place-content: center;
+}
+footer li {
+  padding-top: 12px;
+  font-size: 15px;
+  font-weight: 300;
+  list-style-type: none;
+  cursor: pointer;
+}
+footer li:hover {
+  border-bottom: 1px solid black;
+}
+footer div {
+  font-size: 25px;
+  padding: 30px;
+}
+footer div:hover {
+  background-color: aquamarine;
+  border-top: 3px solid brown;
+}
+.copywrite {
+  height: 20vh;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  margin-left: -100px;
+  position: relative;
+}
+.copywrite h1 {
+  font-size: 22px;
+  font-weight: 200;
+}
+.copywrite a {
+  position: absolute;
+  top: 25px;
+  font-size: 35px;
+}
+.i-1 {
+  left: 320px;
+}
+.i-3 {
+  right: 320px;
+}
