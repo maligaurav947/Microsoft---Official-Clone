@@ -1,5 +1,10 @@
 # Microsoft---Official-Clone
+Hello Thank You For Visiting This is a Try To Make A Microsoft Clone Website.
 
+This website is not resopnsive for tablet or mobile i am working on that part 
+here you can see the images taken my website 
+
+thank you
 
 
 
